@@ -1,0 +1,232 @@
+/*
+##Device = Desktops
+##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+.header-area{display:block;width:100%}
+.logo{display:block;text-align:left}
+
+.single-service{margin:20px 0;display:block;}
+
+.welcome-text-right{margin-top:-15px;margin-left:20px;display:block;}
+
+.menubar ul{padding:0;margin:0;list-style:none;border-bottom:8px solid #DBDDE0}
+.menubar ul li{display:inline-block;}
+.menubar ul li a{display:block;padding:10px 10px;text-transform: uppercase;text-decoration:none;color:#B4B4B4;border-right:5px solid #DBDDE0;
+	border-top:1px solid #DBDDE0;font-weight: 700;background:url(images/tab-genarel-link-bg.png)repeat-x scroll 0 0;}
+.menubar ul li a:hover{}
+.menubar ul li.active a{color:#000;background:url(images/tab-link-bg.png)repeat-x scroll 0 0;}
+.footer-area{background:url(images/footer-bg.png)repeat-x;min-height:350px;display:block;}
+
+.menu-bar1 {margin-top: 100px;margin-left: 10px;border-left: 5px solid #1B1A23;height: 155px;display:block;}
+.menu-bar1 h2{text-align:left;margin-left:25px;}
+.menu-bar1 ul{padding:0;margin:0;list-style:none;}
+.menu-bar1 ul li{display:block;margin-bottom:5px;}
+.menu-bar1 ul li a{padding:25px;color:#fff;text-decoration:none}	
+
+.menu-bar2 {margin-top: 100px;margin-left: 10px;border-left: 5px solid #1B1A23;height: 155px;display:block;}
+.menu-bar2 h2{text-align:left;margin-left:25px;}
+.menu-bar2 ul{padding:0;margin:0;list-style:none;}
+.menu-bar2 ul li{display:block;margin-bottom:5px;}
+.menu-bar2 ul li a{padding:25px;color:#fff;text-decoration:none}
+
+}
+
+/*
+##Device = Laptops, Desktops
+##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+.header-area{display:block;width:100%}
+.logo{display:block;text-align:left}
+.header-right p {
+	color: #000;
+	text-transform: uppercase;
+	background: url(images/plus.png)no-repeat;
+	background-position: right top;
+	padding: 15px;
+	margin-left: -24px;
+}
+
+.single-service{margin:20px 0;display:block;}
+
+.welcome-text-right{margin-top:-15px;margin-left:20px;display:block;}
+
+.menubar ul{padding:0;margin:0;list-style:none;border-bottom:8px solid #DBDDE0}
+.menubar ul li{display:inline-block;}
+.menubar ul li a{display:block;padding:10px 10px;text-transform: uppercase;text-decoration:none;color:#B4B4B4;border-right:5px solid #DBDDE0;
+	border-top:1px solid #DBDDE0;font-weight: 700;background:url(images/tab-genarel-link-bg.png)repeat-x scroll 0 0;}
+.menubar ul li a:hover{}
+.menubar ul li.active a{color:#000;background:url(images/tab-link-bg.png)repeat-x scroll 0 0;}
+.footer-area{background:url(images/footer-bg.png)repeat-x;min-height:350px;display:block;}
+
+.menu-bar1 {margin-top: 100px;margin-left: 10px;border-left: 5px solid #1B1A23;height: 155px;display:block;}
+.menu-bar1 h2{text-align:left;margin-left:25px;}
+.menu-bar1 ul{padding:0;margin:0;list-style:none;}
+.menu-bar1 ul li{display:block;margin-bottom:5px;}
+.menu-bar1 ul li a{padding:25px;color:#fff;text-decoration:none}	
+
+.menu-bar2 {margin-top: 100px;margin-left: 10px;border-left: 5px solid #1B1A23;height: 155px;display:block;}
+.menu-bar2 h2{text-align:left;margin-left:25px;}
+.menu-bar2 ul{padding:0;margin:0;list-style:none;}
+.menu-bar2 ul li{display:block;margin-bottom:5px;}
+.menu-bar2 ul li a{padding:25px;color:#fff;text-decoration:none}
+
+}
+
+/*
+##Device = Tablets, Ipads (portrait)
+##Screen = B/w 768px to 1024px
+*/
+
+/*
+@media (min-width: 768px) and (max-width: 1024px) {
+
+body{background:green;}
+
+}
+*/
+
+/*
+##Device = Tablets, Ipads (landscape)
+##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+.header-area{display:block;width:100%}
+.logo{display:block;text-align:left}
+.header-right p {
+	color: #000;
+	text-transform: uppercase;
+	background: url(images/plus.png)no-repeat;
+	background-position: right top;
+	padding: 15px;
+	margin-left: -100px;
+}
+
+.single-service{text-align: center;display:block;}
+.single-service h2{font-size:18px;text-transform:uppercase;font-weight:700;margin:20px 0;}
+.single-service p{margin-bottom:40px;}
+.single-service img{border-radius: 50%}
+.welcome-text-right{margin-top:-15px;margin-left:20px;display:block;}
+
+.menubar ul{padding:0;margin:0;list-style:none;border-bottom:8px solid #DBDDE0}
+.menubar ul li{display:inline-block;}
+.menubar ul li a{display:block;padding:10px 10px;text-transform: uppercase;text-decoration:none;color:#B4B4B4;border-right:5px solid #DBDDE0;
+	border-top:1px solid #DBDDE0;font-weight: 700;background:url(images/tab-genarel-link-bg.png)repeat-x scroll 0 0;}
+.menubar ul li a:hover{}
+.menubar ul li.active a{color:#000;background:url(images/tab-link-bg.png)repeat-x scroll 0 0;}
+.footer-area{background:url(images/footer-bg.png)repeat-x;min-height:800px;display:block;}
+
+.menu-bar1 {margin-top: 250px;margin-left: 10px;border-left: 5px solid #1B1A23;height: 155px;display:block;}
+.menu-bar1 h2{text-align:left;margin-left:25px;}
+.menu-bar1 ul{padding:0;margin:0;list-style:none;}
+.menu-bar1 ul li{display:block;margin-bottom:5px;}
+.menu-bar1 ul li a{padding:25px;color:#fff;text-decoration:none}	
+
+.menu-bar2 {margin-top: 100px;margin-left: 10px;border-left: 5px solid #1B1A23;height: 155px;display:block;}
+.menu-bar2 h2{text-align:left;margin-left:25px;}
+.menu-bar2 ul{padding:0;margin:0;list-style:none;}
+.menu-bar2 ul li{display:block;margin-bottom:5px;}
+.menu-bar2 ul li a{padding:25px;color:#fff;text-decoration:none}
+
+}
+
+/*
+##Device = Low Resolution Tablets, Mobiles (Landscape)
+##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+.header-area{display:block;width:100%}
+.logo{display:block;text-align:center}
+.header-right p {
+	color: #000;
+	text-transform: uppercase;
+	background: url(images/plus.png)no-repeat;
+	background-position: 285px;
+	padding: 15px;
+	margin-left: 0px;
+}
+
+.single-service{text-align: center;display:block;}
+.single-service h2{font-size:18px;text-transform:uppercase;font-weight:700;margin:20px 0;}
+.single-service p{margin-bottom:40px;}
+.single-service img{border-radius: 50%}
+
+.welcome-text-right{margin-top:25px;margin-left:0px;display:block;}
+
+.menubar ul{padding:0;margin:0;list-style:none;border-bottom:8px solid #DBDDE0}
+.menubar ul li{display:inline-block;}
+.menubar ul li a{display:block;padding:10px 10px;text-transform: uppercase;text-decoration:none;color:#B4B4B4;border-right:5px solid #DBDDE0;
+	border-top:1px solid #DBDDE0;font-weight: 700;background:url(images/tab-genarel-link-bg.png)repeat-x scroll 0 0;}
+.menubar ul li a:hover{}
+.menubar ul li.active a{color:#000;background:url(images/tab-link-bg.png)repeat-x scroll 0 0;}
+.footer-area{background:url(images/footer-bg.png)repeat-x;min-height:800px;display:block;}
+
+.menu-bar1 {margin-top: 250px;margin-left: 10px;border-left: 5px solid #1B1A23;height: 155px;display:block;}
+.menu-bar1 h2{text-align:left;margin-left:25px;}
+.menu-bar1 ul{padding:0;margin:0;list-style:none;}
+.menu-bar1 ul li{display:block;margin-bottom:5px;}
+.menu-bar1 ul li a{padding:25px;color:#fff;text-decoration:none}	
+
+.menu-bar2 {margin-top: 100px;margin-left: 10px;border-left: 5px solid #1B1A23;height: 155px;display:block;}
+.menu-bar2 h2{text-align:left;margin-left:25px;}
+.menu-bar2 ul{padding:0;margin:0;list-style:none;}
+.menu-bar2 ul li{display:block;margin-bottom:5px;}
+.menu-bar2 ul li a{padding:25px;color:#fff;text-decoration:none}
+
+}
+
+/*
+##Device = Most of the Smartphones Mobiles (Portrait)
+##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+.header-area{display:block;width:100%}
+.logo {display:block;text-align:center}
+.header-right p {
+	color: #000;
+	text-transform: uppercase;
+	background: url(images/plus.png)no-repeat;
+	background-position:280px;
+	padding: 15px;
+	margin-left: 0px;
+}
+
+.single-service{text-align: center;display:block;}
+.single-service h2{font-size:18px;text-transform:uppercase;font-weight:700;margin:20px 0;}
+.single-service p{margin-bottom:40px;}
+.single-service img{border-radius: 50%}
+
+.welcome-text-right{margin-top:25px;margin-left:0px;display:block;}
+
+.menubar ul{padding:0;margin:0;list-style:none;border-bottom:8px solid #DBDDE0}
+.menubar ul li{display:inline-block;}
+.menubar ul li a{display:block;padding:10px 10px;text-transform: uppercase;text-decoration:none;color:#B4B4B4;border-right:5px solid #DBDDE0;
+	border-top:1px solid #DBDDE0;font-weight: 700;background:url(images/tab-genarel-link-bg.png)repeat-x scroll 0 0;}
+.menubar ul li a:hover{}
+.menubar ul li.active a{color:#000;background:url(images/tab-link-bg.png)repeat-x scroll 0 0;}
+.footer-area{background:url(images/footer-bg.png)repeat-x;min-height:800px;display:block;}
+
+.menu-bar1 {margin-top: 250px;margin-left: 10px;border-left: 5px solid #1B1A23;height: 155px;display:block;}
+.menu-bar1 h2{text-align:left;margin-left:25px;}
+.menu-bar1 ul{padding:0;margin:0;list-style:none;}
+.menu-bar1 ul li{display:block;margin-bottom:5px;}
+.menu-bar1 ul li a{padding:25px;color:#fff;text-decoration:none}	
+
+.menu-bar2 {margin-top: 100px;margin-left: 10px;border-left: 5px solid #1B1A23;height: 155px;display:block;}
+.menu-bar2 h2{text-align:left;margin-left:25px;}
+.menu-bar2 ul{padding:0;margin:0;list-style:none;}
+.menu-bar2 ul li{display:block;margin-bottom:5px;}
+.menu-bar2 ul li a{padding:25px;color:#fff;text-decoration:none}	
+
+
+}
